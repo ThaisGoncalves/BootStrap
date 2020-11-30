@@ -1,0 +1,46 @@
+.banner{
+    background-color: #95223c;
+   
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+
+.glow {
+    
+    color: #d95995;
+    text-align: center;
+    -webkit-animation: glow 30s ease-in-out infinite alternate;
+    -moz-animation: glow 30s ease-in-out infinite alternate;
+    
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .title-font{
+      font-weight: bold;
+      color: #8c4265
+  }
+.sound-icons{
+    width: 20px;
+    height: 20px; 
+}
+  
+.all{
+    background-color: #f2c2dc;
+}
+.jumbotron-color{
+    background-color: #f2c2dc;
+}
+.texto{
+    text-decoration-color: #dc30f2;
+}
